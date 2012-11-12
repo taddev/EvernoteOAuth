@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stetic-interface>
   <configuration>
-    <images-root-path>../../EvernoteOAuthTest</images-root-path>
+    <images-root-path>..</images-root-path>
     <target-gtk-version>2.12</target-gtk-version>
   </configuration>
   <import>
@@ -33,7 +33,7 @@
         <child>
           <widget class="Gtk.MenuBar" id="menubar2">
             <property name="MemberName" />
-            <node name="__gtksharp_167_Stetic_Editor_ActionMenuBar" type="Menubar">
+            <node name="menubar2" type="Menubar">
               <node type="Menu" action="FileAction">
                 <node type="Menuitem" action="QuitAction" />
               </node>
@@ -159,6 +159,7 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">Login</property>
                 <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnLoginButtonClicked" />
               </widget>
               <packing>
                 <property name="Expand">False</property>

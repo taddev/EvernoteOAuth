@@ -28,20 +28,10 @@ public partial class MainWindow
 		// Widget MainWindow
 		this.UIManager = new global::Gtk.UIManager ();
 		global::Gtk.ActionGroup w1 = new global::Gtk.ActionGroup ("Default");
-		this.FileAction = new global::Gtk.Action (
-			"FileAction",
-			global::Mono.Unix.Catalog.GetString("File"),
-			null,
-			null
-		);
+		this.FileAction = new global::Gtk.Action ("FileAction", global::Mono.Unix.Catalog.GetString ("File"), null, null);
 		this.FileAction.ShortLabel = global::Mono.Unix.Catalog.GetString ("File");
 		w1.Add (this.FileAction, null);
-		this.QuitAction = new global::Gtk.Action (
-			"QuitAction",
-			global::Mono.Unix.Catalog.GetString("Quit"),
-			null,
-			null
-		);
+		this.QuitAction = new global::Gtk.Action ("QuitAction", global::Mono.Unix.Catalog.GetString ("Quit"), null, null);
 		this.QuitAction.ShortLabel = global::Mono.Unix.Catalog.GetString ("Quit");
 		w1.Add (this.QuitAction, null);
 		this.UIManager.InsertActionGroup (w1, 0);
@@ -54,7 +44,8 @@ public partial class MainWindow
 		this.vbox1.Name = "vbox1";
 		this.vbox1.Spacing = 6;
 		// Container child vbox1.Gtk.Box+BoxChild
-		this.UIManager.AddUiFromString ("<ui><menubar name='menubar2'><menu name='FileAction' action='FileAction'><menuitem name='QuitAction' action='QuitAction'/></menu></menubar></ui>");
+		this.UIManager.AddUiFromString ("<ui><menubar name=\'menubar2\'><menu name=\'FileAction\' action=\'FileAction\'><menuite" +
+			"m name=\'QuitAction\' action=\'QuitAction\'/></menu></menubar></ui>");
 		this.menubar2 = ((global::Gtk.MenuBar)(this.UIManager.GetWidget ("/menubar2")));
 		this.menubar2.Name = "menubar2";
 		this.vbox1.Add (this.menubar2);
@@ -184,5 +175,6 @@ public partial class MainWindow
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
 		this.QuitAction.Activated += new global::System.EventHandler (this.OnFileMenuQuitActived);
+		this.LoginButton.Clicked += new global::System.EventHandler (this.OnLoginButtonClicked);
 	}
 }
