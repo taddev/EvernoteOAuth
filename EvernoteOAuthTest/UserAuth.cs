@@ -7,10 +7,19 @@ using Evernote.EDAM.UserStore;
 using Evernote.EDAM.NoteStore;
 using Evernote.EDAM.Error;
 
+/// <summary>
+/// User auth.
+/// </summary>
 namespace EvernoteOAuthTest
 {
+	/// <summary>
+	/// User auth.
+	/// </summary>
 	public class UserAuth
 	{
+		/// <summary>
+		/// Initializes a new instance of the <see cref="EvernoteOAuthTest.UserAuth"/> class.
+		/// </summary>
 		public UserAuth ()
 		{
 			String evernoteHost = "sandbox.evernote.com";

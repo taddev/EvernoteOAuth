@@ -58,8 +58,8 @@ public partial class MainWindow: Gtk.Window
 	{
 		MessageDialog md = new MessageDialog (this, 
 		                                      DialogFlags.DestroyWithParent,
-		                                      MessageType.Error, 
-		                                      ButtonsType.Close, "Error loading file");
+		                                      MessageType.Info, 
+		                                      ButtonsType.Close, "Visit http://splunk.net");
 		
 		md.Run ();
 		md.Destroy();
