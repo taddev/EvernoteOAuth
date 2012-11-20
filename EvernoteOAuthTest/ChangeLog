@@ -1,0 +1,6 @@
+2012-11-19  Tad DeVries  <tad@splunk.net>
+
+	* OAuth.cs:
+	* MainWindow.cs:
+	* EvernoteOAuthTest.csproj: 
+
