@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvernoteOAuthTest", "EvernoteOAuthTest\EvernoteOAuthTest.csproj", "{071CBBBB-4A4B-4E6F-9E4B-61B9D9761439}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{25EEF35D-1E64-4C7A-9B4E-FC0A19B81744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{071CBBBB-4A4B-4E6F-9E4B-61B9D9761439}.Debug|x86.Build.0 = Debug|x86
 		{071CBBBB-4A4B-4E6F-9E4B-61B9D9761439}.Release|x86.ActiveCfg = Release|x86
 		{071CBBBB-4A4B-4E6F-9E4B-61B9D9761439}.Release|x86.Build.0 = Release|x86
+		{25EEF35D-1E64-4C7A-9B4E-FC0A19B81744}.Debug|x86.ActiveCfg = Debug|x86
+		{25EEF35D-1E64-4C7A-9B4E-FC0A19B81744}.Debug|x86.Build.0 = Debug|x86
+		{25EEF35D-1E64-4C7A-9B4E-FC0A19B81744}.Release|x86.ActiveCfg = Release|x86
+		{25EEF35D-1E64-4C7A-9B4E-FC0A19B81744}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = EvernoteOAuthTest\EvernoteOAuthTest.csproj
